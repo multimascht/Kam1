@@ -8,11 +8,11 @@ if (age == 33 && name == "Ewa" && woman == true)
 {
     Console.WriteLine("Ewa, lat 33");
 }
-else if (age < 30 && !(name == "Ewa") && woman == true)
+else if (age < 30 && woman == true)
 {
     Console.WriteLine("Kobieta poniżej 30 lat");
 }
-else if (age < 18 && !(name == "Ewa") && woman == false) 
+else if (age < 18 && woman == false) 
 {
     Console.WriteLine("Niepełnoletni mężczyzna");
 }
